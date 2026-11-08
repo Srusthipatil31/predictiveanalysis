@@ -1,0 +1,7 @@
+model,best_params,cv_accuracy,cv_recall,cv_roc_auc,test_accuracy,test_precision,test_recall,test_f1,test_roc_auc
+SVM (RBF),"{""C"": 1, ""gamma"": ""scale""}",0.9714,0.9353,0.9965,0.9737,1.0,0.9286,0.963,0.996
+Logistic Regression,"{""C"": 1}",0.9802,0.9588,0.9956,0.9649,0.975,0.9286,0.9512,0.997
+Neural Network (MLP),"{""alpha"": 0.1}",0.9736,0.9529,0.9941,0.9649,0.975,0.9286,0.9512,0.996
+Gradient Boosting,"{""learning_rate"": 0.1, ""max_depth"": 2, ""n_estimators"": 200}",0.9802,0.9529,0.994,0.9561,0.9744,0.9048,0.9383,0.998
+K-Nearest Neighbours,"{""n_neighbors"": 15}",0.9473,0.8706,0.9935,0.9298,0.9474,0.8571,0.9,0.9907
+Random Forest,"{""max_depth"": 6, ""min_samples_leaf"": 1}",0.967,0.9235,0.9916,0.9561,0.9744,0.9048,0.9383,0.9983
